@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-list tr:hover {
+  cursor: pointer;
+  color: white;
+  background: tomato;
+}
+
+.user-detail {
+  border: 1px solid tomato;
+  width: 300px;
+  height: 400px;
+  padding: 24px 12px;
+}
+
+.user-detail div {
+  margin: 8px 0;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
